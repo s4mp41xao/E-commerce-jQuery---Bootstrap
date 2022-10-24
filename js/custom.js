@@ -130,5 +130,18 @@ $(document).ready(function(){
          elem.removeClass('invalid')
       }
    }
+
+   $('body').on('blur', '#nome', function(){
+      validate($(this))
+   })
+
+   $('body').on('blur', '#email', function(){
+      validate($(this))
+   })
+
+   $('body').on('blur', '#cpf', function(){
+      validate($(this))
+      $(this).mask('000.000.000-00');
+   })
    
 });
