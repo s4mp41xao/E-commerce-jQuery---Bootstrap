@@ -62,7 +62,6 @@ $(document).ready(function(){
       console.log( $(this).find('h4').text() + ' em estoque')
    })
    
-   
    /*
    * Animações
    */
@@ -88,12 +87,9 @@ $(document).ready(function(){
          }, 500, function(){
             console.log($(this).val())
          })
-         
       }
-      
-      
+
    });
-   
    
    /*
    * Ouvinte de eventos .nav-modal-open
@@ -112,7 +108,6 @@ $(document).ready(function(){
       
       myModal.show()
       
-      
    })
    
    function validate( elem ){
@@ -129,6 +124,7 @@ $(document).ready(function(){
          elem.parent().find('.text-muted').hide()
          elem.removeClass('invalid')
       }
+
    }
 
    $('body').on('blur', '#nome', function(){
@@ -139,9 +135,34 @@ $(document).ready(function(){
       validate($(this))
    })
 
+
+   $('body').on('focus', '#date', function(){
+      $(this).datepicker()
+   })
+
+   $('body').on('blur', '#date', function(){
+      validate($(this))
+      $(this).mask('00/00/0000');
+   }) 
+
+   $('body').on('blur', '#time', function(){
+      validate($(this))
+      $(this).mask('00:00');
+   })
+
+   $('body').on('blur', '#cep', function(){
+      validate($(this))
+      $(this).mask('00000-000');
+   })
+
+   $('body').on('blur', '#phone', function(){
+      validate($(this))
+      $(this).mask('00000-0000');
+   })
+
    $('body').on('blur', '#cpf', function(){
       validate($(this))
       $(this).mask('000.000.000-00');
    })
-   
+
 });

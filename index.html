@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./vendor/owl/css/owl.css">
     <link rel="stylesheet" href="./vendor/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="./vendor/jquery-ui/jquery-ui.min.js">
     <link rel="stylesheet" href="./css/style.css">
     <title>jQuery Estudos</title>
 </head>
@@ -234,6 +235,38 @@
                     Por favor, digite um e-mail válido.
                 </small>
             </div>
+
+            <div class="mb-3">
+                <label for="date" class="form-label">Data</label>
+                <input type="text" name="date" id="date" class="form-control" placeholder="Digite seu e-mail" aria-describedby="helpDate">
+                <small id="helpDate" class="text-muted">
+                    Por favor, digite uma data válida.
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <label for="time" class="form-label">Hora</label>
+                <input type="text" name="time" id="time" class="form-control" placeholder="Digite a hora" aria-describedby="helpHora">
+                <small id="helpHora" class="text-muted">
+                    Por favor, digite um temp válido.
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <label for="cep" class="form-label">CEP</label>
+                <input type="text" name="cep" id="cep" class="form-control" placeholder="Digite seu cep" aria-describedby="helpCEP">
+                <small id="helpCEP" class="text-muted">
+                    Por favor, digite um CEP válido.
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <label for="phone" class="form-label">Celular</label>
+                <input type="text" name="phone" id="phone" class="form-control" placeholder="Digite seu phone" aria-describedby="helpCelular" required>
+                <small id="helpCelular" class="text-muted">
+                    Por favor, digite um CPF válido.
+                </small>
+            </div>
             
             <div class="mb-3">
                 <label for="cpf" class="form-label">CPF</label>
@@ -260,6 +293,7 @@
     <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="./vendor/owl/js/owl.js"></script>
     <script src="./vendor/jquery-mask/jquery.mask.min.js"></script>
+    <script src="./vendor/jquery-ui/jquery-ui.min.js"></script>
     <script src="./js/custom.js"></script>
 </body>
 </html>
