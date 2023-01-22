@@ -1,28 +1,33 @@
-# jQuery
-"write less, do more"
-- Biblioteca de JavaScript
-- Carregamento rápido
-- Converte para JS (ECMAScript) padrão 
-- Crossbrowser: funciona em diversos navegadores
-- Escrever um código para todos os navegadores
-- Rápida captura e transmissão de dados 
-- Manipula o DOM
-- Facilita a consulta (query) a elementos
-- Extensível com plugins
-- Instalação: https://jquery.com/download/
+<h1 align="center"> E-commerce </h1>
 
-## Seletores
-### Simples
-```
-    $('h4') // tag
-    $('.featured-item') // class
-    $('#featured') // id
-```
+<p align="center">
+Se trata de uma página única que replica um e-commerce de roupas.
+</p>
 
-### Compostos 
-```
-    $('h4, h6')
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-    $('div h4')
+<br>
 
-```
+<p align="center">
+  <img alt="e-commerce" src="https://i.imgur.com/AeeHVgr.png" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- JAVASCRIPT
+- JQUERY
+- BOOTSTRAP
+- GIT e GITHUB
+
+## 💻 Projeto
+
+Desenvolvido para ampliação dos estudos.<br>
+👉<a href="https://s4mp41xao.github.io/E-commerce-jQuery---Bootstrap/index.html#" target="_blank">clique</a>👈 para conferir o deploy do site funcionando. 
+
+
