@@ -28,6 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Desenvolvido para ampliação dos estudos.<br>
+<p>
 👉<a href="https://s4mp41xao.github.io/E-commerce-jQuery---Bootstrap/" target="_blank">clique</a>👈 para conferir o deploy do site funcionando. 
-
+</p>
 
