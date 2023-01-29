@@ -1,7 +1,7 @@
-<h1 align="center"> E-commerce </h1>
+<h1 align="center"> WebStore </h1>
 
 <p align="center">
-Se trata de uma página única que replica um e-commerce de roupas.
+Este projeto se trata de uma página única que replica um e-commerce de roupas.
 </p>
 
 <p align="center">
