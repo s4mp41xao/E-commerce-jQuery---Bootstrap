@@ -12,7 +12,7 @@ Este projeto se trata de uma página única que replica um e-commerce de roupas.
 <br>
 
 <p align="center">
-  <img alt="e-commerce" src="https://i.imgur.com/AeeHVgr.png" width="100%">
+  <img alt="e-commerce" src="https://i.imgur.com/aHNWHAM.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
